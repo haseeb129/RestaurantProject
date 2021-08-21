@@ -1,0 +1,158 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+@font-face {
+  font-family: "Pala";
+  src: local("Pala"), url("./fonts/Pala.ttf") format("truetype");
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  font-family: "Pala";
+  font-weight: bold;
+  color: white !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.color-nav {
+  background-color: #2ec4b6;
+  box-shadow: 0px 2px 1px rgba(34, 35, 58, 0.1);
+  color: black;
+}
+
+.subscribeButton {
+  border-style: outset;
+}
+.pageStartHeading {
+  padding: 1%;
+  text-align: center;
+  color: aliceblue;
+  font-size: large;
+  margin: 0%;
+}
+h4 {
+  font-family: Pala;
+  text-decoration: underline;
+}
+.appClass {
+  font-family: Pala;
+  font-weight: bold;
+  height: 100%;
+}
+.tabelHeader {
+  background-color: #173e43;
+  color: white;
+  font-weight: bold;
+}
+
+.homePageOverflow {
+  height: 70vh;
+  overflow: auto;
+}
+
+.brandSize {
+  font-size: 33px;
+  font-weight: bolder;
+  padding: 0%;
+  margin: 0%;
+}
+
+.downShadow {
+  box-shadow: 0px 2px 1px rgba(34, 35, 58, 0.1);
+}
+
+.orangeBackground {
+  background-color: #011627;
+}
+
+.redBackground {
+  background-color: #e71d36;
+}
+.redBackground .btn {
+  background-color: #e71d36 !important;
+}
+
+.btn {
+  background-color: #e71d36 !important;
+  border-color: #e71d36 !important;
+}
+
+.darkBlueBackground {
+  background-color: #011627;
+}
+
+span {
+  font-weight: bold;
+}
+.wordWrap {
+  word-wrap: break-word;
+}
+
+.navBarMenu {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: black !important;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.pageBackground {
+  min-height: 100%;
+  padding: 20px;
+}
+
+.image-gallery-image {
+  height: 80vh !important;
+}
+
+.image-gallery-thumbnail-image {
+  height: 20vh !important;
+}
+
+.singleRow {
+  width: 100%;
+  height: 100px !important;
+  line-height: 100px;
+}
+.rowImage {
+  object-fit: contain;
+  width: 100%;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.singleRowWrapper {
+  line-height: 50px;
+  vertical-align: middle;
+}
+.floatRight {
+  float: right;
+  text-align: right;
+  cursor: pointer;
+}
+
+.detailDiv {
+  padding: 30px;
+}
+
+.iconClass {
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.singleRowWrapper .row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.inner {
+  color: black !important;
+}
