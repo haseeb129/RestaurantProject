@@ -22,16 +22,6 @@ code {
   color: black;
 }
 
-.subscribeButton {
-  border-style: outset;
-}
-.pageStartHeading {
-  padding: 1%;
-  text-align: center;
-  color: aliceblue;
-  font-size: large;
-  margin: 0%;
-}
 h4 {
   font-family: Pala;
   text-decoration: underline;
@@ -41,26 +31,12 @@ h4 {
   font-weight: bold;
   height: 100%;
 }
-.tabelHeader {
-  background-color: #173e43;
-  color: white;
-  font-weight: bold;
-}
-
-.homePageOverflow {
-  height: 70vh;
-  overflow: auto;
-}
 
 .brandSize {
   font-size: 33px;
   font-weight: bolder;
   padding: 0%;
   margin: 0%;
-}
-
-.downShadow {
-  box-shadow: 0px 2px 1px rgba(34, 35, 58, 0.1);
 }
 
 .orangeBackground {

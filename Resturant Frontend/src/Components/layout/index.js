@@ -10,8 +10,6 @@ import Menu from "../pages/menu";
 import Register from "../Auth/Register";
 import SignIn from "../Auth/SignIn";
 
-import auth from "../Auth/authService";
-
 class Layout extends Component {
   render() {
     return (
@@ -65,14 +63,6 @@ class Layout extends Component {
                   return <SignIn {...props} {...this.props} />;
                 }}
               />
-
-              {/* <Route
-                path="/Existing"
-                render={(props) => {
-                  if (!this.state.user) return <AlreadySubscribed {...props} />;
-                  else return <Redirect to="/" />;
-                }}
-              /> */}
             </Switch>
           </div>
         </React.Fragment>
